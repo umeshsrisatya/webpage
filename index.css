@@ -1,0 +1,460 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.div0 {
+  height: 8400px;
+  width: 1900px;
+  background-color: black;
+}
+.div1 {
+  margin-top: 40px;
+  width: 1900px;
+  height: 1000px;
+  background-color: black;
+}
+.div1 .img1 {
+  width: 1900px;
+  height: 1000px;
+}
+.div2 {
+  height: 900px;
+  width: 1900px;
+  background-color: white;
+  position: relative;
+}
+.divorange {
+  height: 250px;
+  width: 1900px;
+  background-color: orange;
+  position: absolute;
+  top: 250px;
+}
+.divviolet {
+  height: 700px;
+  width: 1500px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.divviolet > #a {
+  height: 700px;
+  width: 375px;
+  float: left;
+  background-color: rgb(144, 143, 143);
+}
+.divviolet > #b {
+  height: 700px;
+  width: 375px;
+  float: left;
+  background-color: grey;
+}
+.divviolet > #c {
+  height: 700px;
+  width: 375px;
+  float: left;
+  background-color: rgb(97, 97, 97);
+}
+.divviolet > #d {
+  height: 700px;
+  width: 375px;
+  float: right;
+  background-color: rgb(75, 74, 74);
+}
+.div2img {
+  height: 450px;
+  width: 375px;
+}
+.div2headpara {
+  font-size: 40px;
+  color: white;
+  font-style: arial;
+  font-weight: 400;
+  padding: 20px 30px;
+}
+.div2bodypara {
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  padding: 10px 25px;
+  font-family: "Raleway", sans-serif;
+}
+.div3 {
+  height: 1000px;
+  width: 1900px;
+  background-color: aliceblue;
+  position: relative;
+}
+.div31 {
+  height: 1000px;
+  width: 600px;
+  margin-left: 1150px;
+  padding-left: 100px;
+  position: relative;
+}
+.div3 > p {
+  font-size: 90px;
+  font-family: "REM", sans-serif;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.div3img {
+  height: 800px;
+  width: 600px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  border-radius: 20px;
+}
+.div3 > .div31 > p {
+  font-size: 50px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.div3 > .div31 > div {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  margin-left: 300px;
+}
+.div4 {
+  height: 900px;
+  width: 1900px;
+  position: relative;
+}
+.div4img {
+  height: 900px;
+  width: 1900px;
+  position: absolute;
+  opacity: 0.5;
+}
+/* .div4overlay{
+  height:900px;
+  width:1900px;
+  background-color:black;
+  opacity: 0.5;
+  position: absolute;
+  top:0px;
+} */
+.div4ontop {
+  height: 900px;
+  width: 1900px;
+  position: absolute;
+}
+.div4left {
+  height: 900px;
+  width: 950px;
+  float: left;
+}
+.div4leftparagraph {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "REM", sans-serif;
+  margin-top: 170px;
+  margin-left: 200px;
+}
+.div4right {
+  height: 900px;
+  width: 950px;
+  float: right;
+}
+.div4rightpara {
+  color: white;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 170px;
+}
+.div4rightbtn {
+  margin: 100px;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  padding: 15px 60px;
+  border-radius: 10px;
+}
+.div5 {
+  height: 1000px;
+  width: 1900px;
+  background-color: white;
+  position: relative;
+}
+.div5img {
+  height: 900px;
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.div5onlay {
+  height: 380px;
+  width: 700px;
+  background-color: orange;
+  position: absolute;
+  top: 270px;
+  left: 700px;
+}
+.div5onlaypara {
+  font-size: 90px;
+  color: white;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+.div5right {
+  height: 300px;
+  width: 700px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 700px;
+  font-size: 35px;
+  text-align: left;
+}
+.div6 {
+  height: 1200px;
+  width: 1900px;
+  position: relative;
+}
+.div6img {
+  height: 900px;
+  width: 1400px;
+  margin-top: 100px;
+  margin-left: 200px;
+  position: absolute;
+}
+.div6imgoverlay {
+  height: 900px;
+  width: 700px;
+  position: absolute;
+  top: 150px;
+  left: 1100px;
+}
+.div6imgoverlay1 {
+  height: 250px;
+  width: 700px;
+  background-color: white;
+  margin-top: 50px;
+}
+.div6imgoverlay2 {
+  height: 250px;
+  width: 700px;
+  background-color: white;
+  margin-top: 50px;
+}
+.div6imgoverlay3 {
+  height: 250px;
+  width: 700px;
+  background-color: white;
+  margin-top: 50px;
+}
+.div6layhead {
+  font-size: 35px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.div6laypara {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.div61 {
+  height: 700px;
+  width: 1900px;
+  background-color: orange;
+}
+.div62 {
+  height: 500px;
+  width: 1900px;
+  background-color: black;
+}
+.div7 {
+  height: 1300px;
+  width: 1900px;
+  background-color: white;
+}
+.div7left {
+  height: 1300px;
+  width: 1200px;
+  float: left;
+}
+.div7top {
+  height: 500px;
+  width: 1200px;
+  position: relative;
+}
+.div7topimg {
+  height: 400px;
+  width: 400px;
+  margin-left: 250px;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+.div7topleftpara {
+  height: 500px;
+  width: 500px;
+  float: right;
+}
+#div7head {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 100px 100px 50px 100px;
+  letter-spacing: 10px;
+}
+#div7para {
+  font-size: 30px;
+  text-align: right;
+  margin: 0px 30px 0px 30px;
+  font-family: "Raleway", sans-serif;
+}
+#div7btn {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 15px 60px;
+  margin: 20px 60px 2px 120px;
+  border-radius: 20px;
+}
+.div7bottom {
+  height: 800px;
+  width: 1200px;
+}
+.div7bottomimg {
+  height: 600px;
+  width: 900px;
+  margin: 100px 150px;
+}
+.div7right {
+  height: 1300px;
+  width: 700px;
+  float: right;
+  position: relative;
+}
+#div7block {
+  height: 1100px;
+  width: 300px;
+  background-color: orange;
+  margin: 100px 200px;
+}
+#div7rightimg {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+.div8 {
+  height: 1000px;
+  width: 1900px;
+  position: relative;
+}
+.div8back {
+  height: 1000px;
+  width: 1900px;
+  opacity: 0.5;
+}
+.div8ontop {
+  height: 800px;
+  width: 1500px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+#ontopleft {
+  height: 800px;
+  width: 750px;
+  float: left;
+}
+#d8lefthead {
+  font-size: 100px;
+  font-weight: 500;
+  color: white;
+  padding: 70px 0px 20px 20px;
+}
+#d8leftbody {
+  color: white;
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+  text-align: left;
+  margin-left: 20px;
+  position: relative;
+}
+.div8lbtn {
+  color: white;
+  font-size: 30px;
+  border: 3px solid white;
+  padding: 10px 40px;
+  position: absolute;
+  top: 650px;
+  left: 20px;
+}
+#ontopright {
+  height: 800px;
+  width: 750px;
+  float: right;
+}
+
+.div9 {
+  height: 500px;
+  width: 1900px;
+  background-color: grey;
+}
+.div9para {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+.x,
+.y,
+.z,
+.m {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.x {
+  margin-left: 10px;
+  margin-right: 300px;
+}
+.xbox,
+.ybox,
+.zbox,
+.mbox,
+.subbox {
+  font-size: 25px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+.xbox {
+  width: 380px;
+  margin-right: 15px;
+}
+.ybox {
+  width: 350px;
+}
+.zbox {
+  width: 750px;
+}
+.mbox {
+  padding-top: 18px;
+  width: 750px;
+  height: 300px;
+}
+.subbox {
+  padding: 7px 40px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
