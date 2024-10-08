@@ -10,7 +10,7 @@ The main goal of this project is to practice and get comfortable with:
 - Using basic HTML tags like headings, paragraphs, lists, links, and images
 - Styling with CSS (colors, fonts, margins, paddings, and positioning)
 
-## Screenshot
+## Output Screenshot
 
 ![output.jpeg](https://github.com/umeshsrisatya/webpage/blob/main/output.jpeg)
 
