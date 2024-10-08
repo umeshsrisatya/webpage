@@ -1,4 +1,4 @@
-# HTML & CSS Syntax Learning Project
+# Static Web Page (HTML & CSS Syntax Learning Project)
 
 This project was created to help me understand the basic HTML and CSS syntaxes. It includes a simple webpage showcasing the use of various HTML elements and CSS styling rules.
 
